@@ -18,7 +18,7 @@ class App extends Component {
         <div className="App-toDoList">
           <ul>
               <li className="strikeThrough">Create a small app</li>
-              <li>Create git repo</li>
+              <li className="strikeThrough">Create git repo</li>
               <li>Get AWS sorted</li>
               <li>Create Aws account</li>
               <li>Deploy</li>
