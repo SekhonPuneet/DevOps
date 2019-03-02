@@ -19,14 +19,15 @@ class App extends Component {
           <ul>
               <li className="strikeThrough">Create a small app</li>
               <li className="strikeThrough">Create git repo</li>
-              <li>Get AWS sorted</li>
-              <li>Create Aws account</li>
-              <li>Deploy</li>
               <ul>
-                <li>a) upload files to aws instance</li>
-                <li>a) create docker image and then deploy to aws instance</li>
+                
+                <li className="strikeThrough">a) create docker image and run docker container</li>
                 <li>a) Play with docker hub and rancher for continuous integration</li>
-              </ul>            
+              </ul> 
+              <li>Get AWS sorted</li>
+              <li>Upload files to aws instance</li>              
+              <li>Deploy</li>
+                         
             </ul>
         </div>
       </div>
