@@ -1,7 +1,7 @@
 version: '2'
 services:
-  devops:
-    build: .
+  first-docker-repository:    
+    build: .  
     ports:
-     - "5000:3000"
+     - "9900:3000"
     
